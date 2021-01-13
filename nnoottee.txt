@@ -22,3 +22,7 @@ Git鼓励大量使用分支：
 解决冲突就是把Git合并失败的文件手动编辑为我们希望的内容，再提交。
 
 用git log --graph --pretty=oneline --abbrev-commit命令可以看到分支合并图。
+
+
+利用--no-ff禁用fast foward保留历史branch的记录
+例如：git merge --no-ff -m "merge with no-ff" dev
